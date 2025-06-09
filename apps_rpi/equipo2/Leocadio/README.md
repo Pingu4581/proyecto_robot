@@ -1,3 +1,5 @@
+## ----------------------------- Resultados de Investigación ----------------------------- 
+
 # Acceso a Hardware con Raspberry Pi
 
 # 1. GPIO, I2C, SPI, PWM
@@ -65,3 +67,20 @@ pygame.init()
 pygame.joystick.init()
 joystick = pygame.joystick.Joystick(0)
 joystick.init()
+
+
+## ----------------------------- Explicación del código ----------------------------- 
+
+- GPIO: se configura el pin como salida y se activa con `GPIO.HIGH`.
+- PWM: se usa [GPIO.PWM(pin, frecuencia)] para simular un ciclo de trabajo variable y cambiar el brillo del LED.
+
+## ----------------------------- Aprendizaje Obtenido ------------------------------
+
+- Uso de librerías en Python para manipulación de hardware.
+- La SD CARD no se quiere conectar en ubuntu.
+
+
+## ----------------------------- Ajustes en Ubuntu --------------------------------
+
+- Instalarcion: sudo apt install python3-rpi.gpio
+- Asegurarse de que la Raspberry esté corriendo Raspberry Pi OS.
